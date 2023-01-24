@@ -1,0 +1,104 @@
+.original-page{
+    .header{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: 800px;
+        width: 100%;
+        .gazette{
+            grid-column: span 3;
+            width: 100%;
+            border-bottom: 1px solid #E4E4E4;
+            .logo-gazette{
+                margin: 60px auto 60px 20%;
+            }
+        }
+        .navigation{
+            grid-column: span 3;
+        }
+        .swiper-wrapper{
+            grid-column: span 3;
+            display: flex;
+            width: 100%;
+            .swipers{
+                width: 635px;
+                height: 580px;
+                background: red;
+            }
+        }
+    }
+    .center{
+        width: 67%;
+        margin: 0 auto;
+    }
+    .articles{
+        &__primary{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                .most-popular{
+                    .news, .life{
+                        &__image{
+                            width: 260px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    
+                }
+                .breaking-news, .dont-miss, .advert, .subscribe{
+                    width: 255px;
+                        img{
+                            width: 100%;
+                        }
+                }
+                .dont-miss{
+                    img{
+                        width: 72px;
+                    }
+                }
+            }
+            
+        &__secondary{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            .large{
+                width: 350px;
+                img{
+                    width: 100%;
+                }
+            }
+            .group-small{
+                width: 350px;
+                .small{
+                    width: 160px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .video-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        .video{
+            width: 260px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .swiper-footer{
+        display: flex;
+    }
+    .footer__colonnes{
+        display: flex;
+        justify-content: space-around;
+        .colonne{
+            width: 100px;
+            .title-colonne, .footer-links{
+                display: block;
+            }
+        }
+    }
+}
