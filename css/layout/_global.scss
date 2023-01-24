@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+.red{
+    background: #FF0303;
+    text-transform: uppercase;
+    a{
+        color: white;
+    }
+}
+.master-footer-grid {
+    color: white;
+}
+.master-footer-grid a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    font-family: 'PT Serif', serif;
+}
+.date-italic{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
