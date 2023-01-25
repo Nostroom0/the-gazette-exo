@@ -247,6 +247,33 @@
         }
         
     }
+    .video-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        gap: 25px;
+        .video{
+            img{
+                width: 100%;
+                display: block;
+                filter: brightness(1);
+                transition: all .3s ease-in-out;
+            }
+        }
+        .video__image:hover img{
+            filter: brightness(0.4);
+        }
+        .video__image{
+            position: relative;
+        }
+    }
+    .triangle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
     .master-video-grid{
         background: #F6F6F6;
         padding: 100px;

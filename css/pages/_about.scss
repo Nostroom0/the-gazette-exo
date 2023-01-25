@@ -1,10 +1,81 @@
 .about{
-    
-
+    .about-us{
+        background: #EFEFEF;
+        padding: 50px 0;
+        
+    }
+    .title{
+        font-weight: 400;
+        font-size: 28px;
+        margin-bottom: 42px;
+    }
+    .articles, .present{
+        margin-bottom: 100px;
+    }
+    .our-team{
+        font-weight: 400;
+        font-size: 28px;
+        color: #3a3a3a;
+        margin-bottom: 60px;
+    }
+    .editor{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: italic;
+        color: #3a3a3ac2
+    }
+    .jane{
+        font-weight: 400;
+        font-size: 24px;
+        color: #3a3a3a;
+    }
     .column{
         columns: 2;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #9f9f9f;
     }
-    .master-swiper-grid{
+    .socials{
+        a{
+            margin-left: 10px;
+            i{
+                opacity: .4;
+                color: #1E1E1E;
+                transition: all .3s ease-in-out;
+            }
+            
+        }
+    }
+    .swiper-footer__titles{
+        text-align: center;
+        color: #fff;
+        .texte{
+            color: #fff;
+        }
+    }
+    .title-footer{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .btn-about{
+        text-transform: uppercase;
+        a{
+            color: #fff;
+            padding: 18px 19px;
+            border: 2px solid #fff;
+            transition: all .3s ease-in-out;
+            i{
+                margin-left: 10px;
+            }
+        }
+        
+    }
+    .btn-about a:hover {
+        border: 2px solid #FF0303;
+        color: #FF0303;
+    }
+    .master-swiper-grid-about{
         background: url('../../img/blog-img/cta.jpg') center/cover;
         background-attachment: fixed;
         background-color: rgba(0, 0, 0, 0.612);
