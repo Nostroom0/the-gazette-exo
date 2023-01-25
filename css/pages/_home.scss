@@ -1,28 +1,5 @@
 .original-page{
-    .wrapper-grid{
-        width: 100%;
-    }
     .header{
-        margin-bottom: 130px;
-        width: 100%;
-        .gazette{
-            padding: 60px 0;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #E4E4E4;
-        }
-        .navigation{
-            padding: 20px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .links-navigation{
-                display: flex;
-                justify-content: space-between;
-                width: 60%;
-                text-transform: uppercase;
-            }
-        }
         .swiper-wrapper{
             display: flex;
             width: 100%;
@@ -54,10 +31,7 @@
             }
         }
     }
-    .center{
-        width: 67%;
-        margin: 0 auto;
-    }
+    
     .articles{
         &__primary{
             margin-bottom: 130px;
@@ -277,59 +251,7 @@
         background: #F6F6F6;
         padding: 100px;
     }
-    .video-grid{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        justify-items: center;
-        gap: 25px;
-        .video{
-            img{
-                width: 100%;
-            }
-        }
-    }
     .master-swiper-grid{
         background: #1D1D1D;
-        .swiper-footer{
-            padding: 130px 0;
-            display: flex;
-            gap: 30px;
-            .swiper-footer__titles>*{
-                margin-top: 27px;
-            }
-        }
-    }
-    
-    .footer__colonnes{
-        display: flex;
-        justify-content: space-around;
-        .colonne{
-            width: 100px;
-            .title-colonne, .footer-links{
-                display: block;
-            }
-        }
-    }
-    .master-footer-grid{
-        background: url('../../img/bg-img/4.jpg') center/cover;
-        background-color: rgba(0, 0, 0, 0.507);
-        background-blend-mode: multiply;
-        .footer{
-            padding: 100px 0;
-            &__colonnes{
-                display: flex;
-                align-items: flex-start;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-        }
-        .footer-links a{
-            display: block;
-        }
-        .copyright{
-            border-top: 1px solid #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
     }
 }

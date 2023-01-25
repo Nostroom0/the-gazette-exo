@@ -1,0 +1,22 @@
+.about{
+    
+
+    .column{
+        columns: 2;
+    }
+    .master-swiper-grid{
+        background: url('../../img/blog-img/cta.jpg') center/cover;
+        background-attachment: fixed;
+        background-color: rgba(0, 0, 0, 0.612);
+        background-blend-mode: multiply;
+    }
+    .photo-wrapper{
+        display: flex;
+        justify-content: space-between
+    }
+    .inner-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
