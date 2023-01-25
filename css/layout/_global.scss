@@ -2,7 +2,6 @@
 
 .red{
     background: #FF0303;
-    text-transform: uppercase;
     a{
         color: white;
     }
@@ -16,11 +15,110 @@
 a{
     text-decoration: none;
 }
-.title{
+.date-italic{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+}
+.title-colonne{
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 45px;
+}
+.colonne{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+small{
+    font-weight: 400;
+    font-size: 14px;
+}
+.title, .texte-pt{
     font-family: 'PT Serif', serif;
 }
-.date-italic{
-    font-family: 'Roboto', sans-serif;
+.texte-pt{
     font-weight: 400;
-    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.articles__secondary, .video{
+    .texte-pt, .texte-pt a{
+        color: #404040;
+    }
+}
+.dont-miss-row{
+    .texte-pt a{
+        font-size: 15px;
+        line-height: 23px;
+        color: #404040;
+    }
+}
+.links-navigation, .date-italic, span, .top-card, .politices__texte, .texte, .comm{
+    font-family: 'Roboto', sans-serif;
+}
+.dont-miss-row{
+    .date-italic{
+        font-size: 14px;
+        line-height: 21px;
+        color: #838383;
+    }
+}
+.links-navigation a{
+    color: #404040;
+}
+span, .top-card{
+    padding: 2px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+.swiper-wrapper .title{
+    margin: 21px 0;
+}
+.swiper-wrapper .title a{
+    font-weight: 500;
+    font-size: 37px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.swiper-wrapper .date-italic a{
+    color: #fff;
+}
+.politices{
+    &__titles, &__image {
+        margin-bottom: 57px;
+    }
+    &__texte{
+        color: #9B939B;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .title{
+        color: #404040;
+        font-weight: 500;
+        font-size: 45px;
+        width: 740px;
+        line-height: 65px;
+        margin: 21px 0;
+    }
+    .date-italic{
+        color: #9B939B;
+    }
+}
+.flex-colonne02, .most-popular{
+    .top-title{
+        color: #404040;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 2px solid #40404030;
+    }
 }
